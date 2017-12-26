@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Portofolio|tofik hidayat</title>
+<link rel="icon" type="img/png" href="asset/img/icon.png">
+<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Great+Vibes|Montserrat" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="asset/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="asset/css/bootstrap-theme.css">
+<link rel="stylesheet" type="text/css" href="asset/css/main.style.css">
+<link rel="stylesheet" type="text/css" href="asset/ionicons/css/ionicons.min.css">
+<link rel="stylesheet" type="text/css" href="asset/css/main.style.css">
+<link rel="stylesheet" type="text/css" href="asset/css/main.animate.css">
+<link rel="stylesheet" type="text/css" href="asset/css/clue.css">
+<script type="text/javascript" src="asset/js/jquery-3.2.1.js"></script>
+<script type="text/javascript" src="asset/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="asset/js/main-scrool.js"></script>
+<script type="text/javascript" src="asset/js/main.popup.js"></script>
+
+
+<!-- s<script type="text/javascript" src="asset/js/funtion.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+-->
+</head>
+<body  data-spy="scroll" data-target=".navbar" data-offset="500" onload="onloadFunction()">
+<div id="loader" scrool="false"><div class="load-a"><div class="load-b"><div class="load-c"><div class="load-d"></div></div></div></div></div>
+<header>
+	<div class="modal fade" id="popup" role="dialog" onclick="navbaropen()">
+    <div class="modal-dialog modal-lg" style="z-index: 999 !important ; display: block;">
+      <div class="modal-content"   onclick="navbarclose()">
+        <div class="modal-header">
+          <button type="button" class="close white" data-dismiss="modal"  onclick="navbaropen()" style=" color: #fff !important; background: transparent !important;" >&times;</button> 
+        </div>
+        <div class="modal-body"  onclick="navbaropen()" style="z-index: 9999 !important">
+        	<div class="content-modal">
+          		<img id="content-popup-01" class="content-popup content-center" src="asset/img/home-latest-work-01.jpg">
+          		<img id="content-popup-02"  class="content-popup content-center" src="asset/img/home-latest-work-02.jpg">
+          		<img id="content-popup-03" class="content-popup content-center" 	src="asset/img/home-latest-work-03.jpg">
+          		<img  id="content-popup-04" class="content-popup content-center"   src="asset/img/home-latest-work-04.jpg">
+          		<img id="content-popup-05" class="content-popup content-center" src="asset/img/home-latest-work-05.jpg">
+          		<img id="content-popup-06" class="content-popup content-center"  src="asset/img/home-latest-work-06.jpg">
+          </div>
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="banner"></div>
+	 <nav class="navbar" id="navbar">
+	 	<div class="container">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle pull-right" data-toggle="collapse" data-target="#navbar-list" style="position: relative !important; ">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+		</div>
+		<div class="navbar-brand">creative</div>
+		<div class="collapse navbar-collapse" id="navbar-list">
+			<ul class="nav navbar-nav navbar-left">
+							<li>
+								<a href="#banner" id="scrooll">HOME</a>
+							</li>
+							<li>
+								<a href="#about">ABOUT</a>
+							</li>
+							<li>
+								<a href="#experience">EXPERIENCE</a>
+							</li>
+						</ul>
+
+			<ul class="nav navbar-nav navbar-right">
+							<li>
+								<a href="#works">WORKS</a>
+							</li>
+							<li>
+								<a href="#daily-skills">DAILY SKILLS</a>
+							</li>
+							<li>
+								<a href="#profile">PROFILE</a>
+							</li>
+			</ul>
+		</div>
+	</div>
+	</div>
+</nav>
+</header>
+<section>
+	<!----------------------------banner------------------------------>
+	<div class="banner" id="banner">
+		<div class="container">
+			<div class="row">
+				<div class="row">
+				<img class="col-lg-10 col-sm-10 col-md-10 col-xs-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1" src="asset/img/hello.svg">
+				<img class="col-lg-5 col-sm-5 col-md-5 col-xs-5 col-lg-offset-3 col-md-offset-3 col-sm-offset-3 col-xs-offset-3 banner-sub-title" src="asset/img/iam.svg">
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!----------------------------about------------------------------>
+	<div class="about content" id="about">
+		<div class="container">
+		<div class="row">
+			<div id="about-title" class="col-lg-6 col-md-6 col-sm-12 col-xs-12 white">
+				<h6 class="learn-more">learn more about me</h6>		
+				<h3 class="title p-0 m-0">I DESIGN DIGITAL & </h3>
+				<h3 class="title p-0 m-0">PRINT PRODUCTIONS</h3>
+				<div class="line-spacing"></div>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 white about-content">
+				<P>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				a deserunt mollit anim id est laborum.</P>
+
+				<P class="pt-10 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+				qui officia deserunt mollit anim id est laborum.</P>
+
+				<h4 class="text-left ">follow me</h4>
+				<div class="pull-left">
+					<div class="social pull-left">
+						<a href="#"><i class="ion-social-facebook"></i></a>
+					</div>
+					<div class="social pull-left">
+						<a href="#"><i class="ion-social-instagram"></i></a>
+					</div>
+					<div class="social pull-left">
+						<a href="#"><i class="ion-social-twitter"></i></a>
+					</div>
+					<div class="social pull-left">
+						<a href="#"><i class="ion-social-github"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<!----------------------------undenfined------------------------------>
+	<div class=" content">
+		<div class="container">
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+				<div class="container-fluid">
+					<div class="boddy b-b p-20 pt-70 pb-70 white">
+						<img class="content-center" src="asset/img/target-01.svg">
+						<h4 class=" text-center pt-80">CONCEPT & STRATEGY</h4>
+						<P class="pt-30 undenfined-content">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo			
+						</P>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+				<div class="container-fluid">
+					<div class="boddy_b b-b p-20 pt-70 pb-70 white">
+						<img class="content-center" src="asset/img/target-02.svg">
+						<h4 class=" text-center pt-80">CONCEPT & STRATEGY</h4>
+						<P class="pt-30 undenfined-content">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo			
+						</P>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+				<div class="container-fluid">
+					<div class="boddy b-b p-20 pt-70 pb-70 white">
+						<img class="content-center" src="asset/img/target-03.svg">
+						<h4 class=" text-center pt-80">CONCEPT & STRATEGY</h4>
+						<P class="pt-30 undenfined-content">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo			
+						</P>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+
+	<!--------------------------my experience---------------------------->
+	<div class="experience  white content" id="experience">
+		<div class="container">
+		<h3 class="title text-center pb-40">MY EXPERIENCE</h3>
+		 <div class="row">
+				<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offsite-1 col-xs-12 col-xs-offset-0 container-fluid ">
+					<div class="index pb-30">
+						<div class="row">
+							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+								<h5 class="time-title">WEB DESIGNER</h5>
+								<p class="time">2012-2017</p>
+							</div>
+							<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 pharagrap"> 
+								<p class="pt-10 pl-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
+							</div>
+						</div>
+					</div>
+					<div class="border-space"></div>
+					<div class="index pt-30 pb-30 ">
+						<div class="row">
+							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+								<h5 class="time-title">WEB DESIGNER</h5>
+								<p class="time">2012-2017</p>
+							</div>
+							<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 pharagrap"> 
+								<p class="pt-10 pl-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
+							</div>
+						</div>
+					</div>
+					<div class="border-space"></div>
+					<div class="index pt-30">
+						<div class="row">
+							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+								<h5 class="time-title">WEB DESIGNER</h5>
+								<p class="time">2012-2017</p>
+							</div>
+							<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 pharagrap"> 
+								<p class="pt-10 pl-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+
+
+
+<!----------------------------------------lates works-------------------------------->
+<div class="lates-works white content" id="works">
+	<div class="container">
+	<h3 class="text-center title pb-30">MY LATES WORKS</h3>
+	<div class="row">
+		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 p-10">
+				<div class="container-fluid b-b p-10 ov-h asset">
+						<img src="asset/img/home-latest-work-01.jpg">
+						<div class="popup content-center-1">
+							<div class="popup-content">
+								<button>
+								 <i data-toggle="modal" onclick="popup_01()" data-target="#popup"  class="ion-android-search"></i>
+								 </button>
+							</div>
+						</div>
+				</div>
+				<div class="container-fluid p-10">
+				<h4 class="text-left action-title">APETURE NEW PORTAL</h4>
+					<h4 class="text-left action-title-index">BRAND IDENTIFY WEB PORTAL</h4>
+				</div>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 p-10">
+				<div class="container-fluid b-b p-10 ov-h asset">
+						<img src="asset/img/home-latest-work-02.jpg">
+						<div class="popup content-center-1">
+							<div class="popup-content">
+								<button>
+								 <i data-toggle="modal" onclick="popup_02()" data-target="#popup"  class="ion-android-search"></i>
+								 </button>
+							</div>
+						</div>
+				</div>
+				<div class="container-fluid p-10">
+				<h4 class="text-left action-title">HAPPY KIDS CLOTHING</h4>
+					<h4 class="text-left action-title-index">BRAND IDENTIFY WEB PORTAL</h4>
+				</div>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 p-10">
+				<div class="container-fluid b-b p-10 ov-h asset">
+						<img src="asset/img/home-latest-work-03.jpg">
+						<div class="popup content-center-1">
+							<div class="popup-content">
+								<button>
+								 <i data-toggle="modal" onclick="popup_03()" data-target="#popup"  class="ion-android-search"></i>
+								 </button>
+							</div>
+						</div>
+				</div>
+				<div class="container-fluid p-10">
+				<h4 class="text-left action-title">SARAH NUO PHOTOGRAPHER</h4>
+					<h4 class="text-left action-title-index">BRAND IDENTIFY WEB PORTAL</h4>
+				</div>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 p-10">
+				<div class="container-fluid b-b p-10 ov-h asset">
+						<img src="asset/img/home-latest-work-04.jpg">
+						<div class="popup content-center-1">
+							<div class="popup-content">
+								<button>
+								 <i data-toggle="modal" onclick="popup_04()" data-target="#popup"  class="ion-android-search"></i>
+								 </button>
+							</div>
+						</div>
+				</div>
+				<div class="container-fluid p-10">
+				<h4 class="text-left action-title">HOLOGRAM AGENCY</h4>
+					<h4 class="text-left action-title-index">BRAND IDENTIFY WEB PORTAL</h4>
+				</div>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 p-10">
+				<div class="container-fluid b-b p-10 ov-h asset">
+						<img src="asset/img/home-latest-work-05.jpg">
+						<div class="popup content-center-1">
+							<div class="popup-content">
+								<button>
+								 <i data-toggle="modal" onclick="popup_05()" data-target="#popup"  class="ion-android-search"></i>
+								 </button>
+							</div>
+						</div>
+				</div>
+				<div class="container-fluid p-10">
+				<h4 class="text-left action-title">REBRAND CAMBRIDGE MUSEUM</h4>
+					<h4 class="text-left action-title-index">BRAND IDENTIFY WEB PORTAL</h4>
+				</div>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 p-10">
+				<div class="container-fluid b-b p-10 ov-h asset">
+						<img src="asset/img/home-latest-work-06.jpg">
+						<div class="popup content-center-1">
+							<div class="popup-content">
+								<button>
+								 <i data-toggle="modal" onclick="popup_06()" data-target="#popup"  class="ion-android-search"></i>
+								 </button>
+							</div>
+						</div>
+				</div>
+				<div class="container-fluid p-10">
+				<h4 class="text-left action-title">CAMPING ENAMEL MUG</h4>
+					<h4 class="text-left action-title-index">BRAND IDENTIFY WEB PORTAL</h4>
+				</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<!-----------------m daiky skills----------------------->
+<div class="daily-skills white content" id="daily-skills">
+	<div class="container">
+	<h3 class="text-center pb-30">MY DAILY SKILLS</h3>
+	<div class="container-fluid ">
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 daily">
+				<div class="row pt-20 pb-20">
+					<div class="container-fluid pull-left">
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+							<div class="icon daily-skills pull-right">
+									<i class="content-center  ion-checkmark-round"></i>
+							</div>
+						</div>
+						<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 ">
+							<h5 class="col-titte">DESKTOP PUBLISHING</h5>
+							<p class="col-pharagrap">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 daily">
+				<div class="row pt-20 pb-20">
+					<div class="container-fluid pull-left">
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+							<div class="icon daily-skills pull-right">
+									<i class="content-center  ion-checkmark-round"></i>
+							</div>
+						</div>
+						<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+							<h5 class="col-titte">DESKTOP PUBLISHING</h5>
+							
+								<p class="col-pharagrap">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 daily">
+				<div class="row pt-20 pb-20">
+					<div class="container-fluid pull-left">
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+							<div class="icon daily-skills pull-right">
+									<i class="content-center  ion-checkmark-round"></i>
+							</div>
+						</div>
+						<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+							<h5 class="col-titte">DESKTOP PUBLISHING</h5>
+							
+								<p class="col-pharagrap">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 daily">
+				<div class="row pt-20 pb-20">
+					<div class="container-fluid pull-left">
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+							<div class="icon daily-skills pull-right">
+									<i class="content-center  ion-checkmark-round"></i>
+							</div>
+						</div>
+						<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+							<h5 class="col-titte">DESKTOP PUBLISHING</h5>
+							
+								<p class="col-pharagrap">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 daily">
+				<div class="row pt-20 pb-20">
+					<div class="container-fluid pull-left">
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+							<div class="icon daily-skills pull-right">
+									<i class="content-center  ion-checkmark-round"></i>
+							</div>
+						</div>
+						<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+							<h5 class="col-titte">DESKTOP PUBLISHING</h5>
+							<p class="col-pharagrap">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 daily">
+				<div class="row pt-20 pb-20">
+					<div class="container-fluid pull-left">
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+							<div class="icon daily-skills pull-right">
+									<i class="content-center  ion-checkmark-round"></i>
+							</div>
+						</div>
+						<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+							<h5 class="col-titte">DESKTOP PUBLISHING</h5>
+							<p class="col-pharagrap">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+	
+<!-----------------------profile------------------------->
+<div class=" white content" id="profile">
+	<div class="container">
+	<div class="container-fluid">
+		<div class="long">
+			<div class="profile content-center">
+				<img src="asset/img/profile.svg">
+			</div>
+			<div class="container-fluid pb-40 pt-10">
+				<h6 class="text-center pt-60 pb-20 inf-profile">tofik hidayat</h6>
+				<p class="text-center cont-pharagrap">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna 
+				<br>aliqua. 
+				Ut enim ad minim veniam,
+				olor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</section>
+<footer>
+	<div class="container">
+		<div class="content">
+			<h3 class="logo text-center">creative</h3>
+			<p class=" p-0 m-0 pt-20 text-center white colom">Are you ready to work with me? </p>
+			<p class="text-center white colom">Send your inquiry now</p>
+			<p class="text-center white colom pb-50">tofikhidayat711@gmail.com  . 08986834735</p>
+
+		</div>
+	</div>
+
+<div class="container">
+	<div class="line-spacing-a"></div>
+<div class="pt-40 pb-70">	
+
+	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+		<p class="copy">&copy2017 tofik hidayat</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+		<div class="link">
+					<div class="addres">
+						<a href="#"><i class="ion-social-facebook"></i></a>
+					</div>
+					<div class="addres">
+						<a href="#"><i class="ion-social-instagram"></i></a>
+					</div>
+					<div class="addres">
+						<a href="#"><i class="ion-social-twitter"></i></a>
+					</div>
+					<div class="addres">
+						<a href="#"><i class="ion-social-github"></i></a>
+					</div>
+					<div class="to-top p-0 pl-10">
+						<a href="#banner"><i class="ion-arrow-up-c"></i></a>
+					</div>
+				</div>
+		</div>
+		
+	</div>
+	</div>
+
+</footer>
+
+</body>
+
+</html>
